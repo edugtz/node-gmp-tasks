@@ -6,12 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "task1": "nodemon ./task1.1/app.js",
-    "task2": "nodemon ./task1.2/app.js"
+    "task2": "nodemon ./task1.2/app.js",
+    "task31": "nodemon --exec babel-node task1.3/task1.1/app.js",
+    "task32": "nodemon --exec babel-node task1.3/task1.2/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
     "nodemon": "^2.0.4"
   },
   "dependencies": {
