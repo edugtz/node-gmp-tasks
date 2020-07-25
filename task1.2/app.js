@@ -8,5 +8,5 @@ fs.createReadStream("./task1.2/csv/nodejs-hw1-ex1.csv")
     writer.write(row);
   })
   .on("error", function (error) {
-    console.log("An error ocurred: ", error);
+    console.log("An error occurred: ", error);
   });
