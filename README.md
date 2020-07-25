@@ -33,5 +33,6 @@ npm install
 ```bash
 Task 1.1: npm run task1
 Task 1.2: npm run task2
-Task 1.3: npm run task31 and npm run task32
+Task 1.3: npm run task31
+          npm run task32
 ```
