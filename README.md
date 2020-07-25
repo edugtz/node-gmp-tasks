@@ -22,7 +22,7 @@ git clone https://github.com/edugtz/node-gmp-tasks.git
 cd node-gmp-tasks
 ```
 
-3. Inside the **react-gmp-movies** folder run the following command to install all the necessary dependencies:
+3. Inside the **node-gmp-tasks** folder run the following command to install all the necessary dependencies:
 
 ```bash
 npm install
