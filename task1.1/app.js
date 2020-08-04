@@ -1,10 +1,8 @@
-process.stdin.setEncoding("utf8");
+const process = require("process");
+const { stdin, stdout } = process;
 
-process.stdin.on("readable", function () {
-  let input;
+stdin.addListener("data", (input) => {
+  const reversedInput = input.reverse().toString().trim();
 
-  while ((input = process.stdin.read()) !== null) {
-    const reversedInput = input.split("").reverse().join("");
-    process.stdout.write(`${reversedInput} \n`);
-  }
+  stdout.write(`${reversedInput} \n`);
 });
